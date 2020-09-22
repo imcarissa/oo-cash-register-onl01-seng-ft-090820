@@ -4,4 +4,4 @@ class Cash Register
   
   def initialize
     @total = 0
-    @variable
+    @discount = []
