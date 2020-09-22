@@ -8,3 +8,4 @@ class CashRegister
   end
   
   def add_items(title, price, quantity = 1)
+    
