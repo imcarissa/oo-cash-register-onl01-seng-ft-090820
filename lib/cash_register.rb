@@ -6,5 +6,3 @@ class Cash Register
     @total = 0
     @discount = []
   end
-  
-end
