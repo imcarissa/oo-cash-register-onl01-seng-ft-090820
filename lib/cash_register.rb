@@ -18,7 +18,10 @@ class CashRegister
     @last_item = price * quantity 
   end 
   
-  
+    
+  def items 
+    @items 
+  end 
   
   
   def apply_discount
