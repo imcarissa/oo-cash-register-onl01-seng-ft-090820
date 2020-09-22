@@ -23,7 +23,7 @@ class CashRegister
   end
   
 
-def apply_discount
+  def apply_discount
     if @discount > 0
       @to_take_off = (price * discount)/100
       @total -= @to_take_off
@@ -36,4 +36,5 @@ def apply_discount
   def void_last_transaction
     @total -= @price
   end
+  
 end
