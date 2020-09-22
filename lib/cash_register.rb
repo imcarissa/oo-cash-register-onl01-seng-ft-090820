@@ -19,5 +19,6 @@ class CashRegister
     else
       @items << title
     end
+  end
 end
     
